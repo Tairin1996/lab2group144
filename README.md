@@ -11,5 +11,6 @@
 * git commit -m "*COMMIT MESSAGE*" //коммитим (в commit message можешь написать, какой ты классный)
 * git remote add origin https://github.com/nikon72ru/lab2group144.git //Привзяываем удаленный репозиторий
 * git push -u origin *BRANCH NAME* //Заливаем свой коммит в ветку, BRANCH NAME, соответсвенно, надо заменить на название свой ветки (не пуште в мастер)
+* Убеждаемся, что все хорошо, и делаем MR (merge request) в мастер, пишем мне
 
 Готово! Вы велеколепны 
