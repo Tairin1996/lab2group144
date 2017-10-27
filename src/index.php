@@ -10,9 +10,7 @@ $path = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPA
 //Если файл физически не существует – пишем ошибку.
 if (!file_exists($path)) die ("Ошибка: файл $path не найден") ;
 //Добавляем шапку сайта
-include('app/header.php');
 
 //Добавляем нужную страницу в зависимости от параметров
 include($path);
 //Добавляем подвал
-include('app/footer.php');
