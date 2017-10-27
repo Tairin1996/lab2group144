@@ -13,9 +13,6 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- CSS Bootstrap & Custom -->
-    <link href=" ../vendor/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="../font/font-awesome.min.css" rel="stylesheet" media="screen">
-    <link href="../template/scss/animate.css" rel="stylesheet" media="screen">
     <link href="../template/scss/style.css" rel="stylesheet" media="screen">
 
     <!-- Favicons -->
