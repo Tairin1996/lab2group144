@@ -15,8 +15,8 @@
     <!-- CSS Bootstrap & Custom -->
     <link href=" ../vendor/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="../font/font-awesome.min.css" rel="stylesheet" media="screen">
-    <link href="../template/scss/animate.scss" rel="stylesheet" media="screen">
-    <link href="../template/scss/style.scss" rel="stylesheet" media="screen">
+    <link href="../template/scss/animate.css" rel="stylesheet" media="screen">
+    <link href="../template/scss/style.css" rel="stylesheet" media="screen">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../font/ico/apple-touch-icon-144-precomposed.png">
