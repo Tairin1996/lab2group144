@@ -13,5 +13,7 @@ if (!file_exists($path)) die ("Ошибка: файл $path не найден") 
 include('app\header.php');
 //Если это не главная страница – добавляем хлебные крошки
 if ($module) include('breadcrumbs.php');
+//Добавляем нужную страницу в зависимости от параметров
+include($path);
 //Добавляем подвал
 include('app\footer.php');
