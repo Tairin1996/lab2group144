@@ -7,7 +7,7 @@
     </a>
     <div class="responsive_menu">
         <ul class="main_menu">
-            <li><a href="../pages/index.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#">Events</a>
                 <ul>
                     <li><a href="../event/index.php">Events List</a></li>
