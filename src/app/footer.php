@@ -69,11 +69,11 @@
                 </div> <!-- /.col-md-5 -->
                 <div class="col-md-7">
                     <ul class="footer-nav">
-                        <li><a href="./pages/index.php">Home</a></li>
-                        <li><a href="./course/index.php">Courses</a></li>
-                        <li><a href="./event/index.php">Events</a></li>
-                        <li><a href="./blog/index.php">Blog</a></li>
-                        <li><a href="./pages/contact.php">Contact</a></li>
+                        <li><a href="<?php echo $menu['pages']['index.php']['link']; ?>">Home</a></li>
+                        <li><a href="<?php echo $menu['course']['index.php']['link']; ?>">Courses</a></li>
+                        <li><a href="<?php echo $menu['event']['index.php']['link']; ?>">Events</a></li>
+                        <li><a href="<?php echo $menu['blog']['index.php']['link']; ?>">Blog</a></li>
+                        <li><a href="<?php echo $menu['pages']['contact.php']['link']; ?>">Contact</a></li>
                     </ul>
                 </div> <!-- /.col-md-7 -->
             </div> <!-- /.row -->
