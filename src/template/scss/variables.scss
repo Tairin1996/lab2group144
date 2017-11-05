@@ -6,12 +6,12 @@ body,
 
 $main: #003a6a;
 $main-text: #8ab5d6;
-$main_mobile: #00569d;
+$main-mobile: #00569d;
 $navigation: #004884;
 $links:#4782b2;
 
 $search-form: #004074;
-$header_link_hover: #5191c2;
+$header-link-hover: #5191c2;
 $footer-link: #8ab5d6;
 $main-border: #3684ca;
 $links-hover: #2f4bb2;
@@ -151,7 +151,7 @@ body,
 }
 
 .site-header a:hover {
-  color: $header_link_hover;
+  color: $header-link-hover;
 }
 
 .small-links li:not(:last-child):after,
@@ -240,7 +240,7 @@ blockquote,
 .search-form form input,
 .main-navigation,
 .main-menu li {
-  border-color: $main_mobile;
+  border-color: $main-mobile;
 }
 
 .main-menu li ul li {
