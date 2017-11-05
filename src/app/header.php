@@ -43,6 +43,7 @@
             <li><a href="<?php echo $menu['pages']['index.php']['link']; ?>">Home</a></li>
             <li><a href="#">Events</a>
                 <ul>
+                    <li><a href="<?php echo $menu['event']['grid.php']['link']; ?>">Event Grid</a></li>
                     <li><a href="<?php echo $menu['event']['index.php']['link']; ?>">Events List</a></li>
                     <li><a href="<?php echo $menu['event']['item.php']['link']; ?>">Event Details</a></li>
                 </ul>
@@ -116,6 +117,8 @@
                         <a href="<?php echo $menu['pages']['index.php']['link']; ?>">Home</a></li>
                     <li><a href="#">Events</a>
                         <ul class="sub-menu">
+                            <li class="<?php echo ($menu['event']['grid.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
+                                <a href="<?php echo $menu['event']['grid.php']['link']; ?>">Events Grid</a></li>
                             <li class="<?php echo ($menu['event']['index.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
                                 <a href="<?php echo $menu['event']['index.php']['link']; ?>">Events List</a></li>
                             <li class="<?php echo ($menu['event']['item.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">

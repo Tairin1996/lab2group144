@@ -19,6 +19,8 @@ $menu['course']['index.php']['link'] = '/?mod=course&action=index.php';
 $menu['course']['item.php']['title'] = 'Описание курса';
 $menu['course']['item.php']['link'] = '/?mod=course&action=item.php';
 
+$menu['event']['grid.php']['title'] = 'Сетка событий';
+$menu['event']['grid.php']['link'] = '/?mod=event&action=grid.php';
 $menu['event']['index.php']['title'] = 'Список событий';
 $menu['event']['index.php']['link'] = '/?mod=event&action=index.php';
 $menu['event']['item.php']['title'] = 'Описание события';
