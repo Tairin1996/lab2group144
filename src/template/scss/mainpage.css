@@ -290,9 +290,7 @@ input, select {
   appearance: none; }
 
 .input-select select {
-  background-image: url("../images/select-arrow.png");
-  background-repeat: no-repeat;
-  background-position: right center;
+  background: url("../../template/img/select-arrow.png") no-repeat right center;
   width: 100%;
   padding: 3px 8px;
   border: 1px solid; }
