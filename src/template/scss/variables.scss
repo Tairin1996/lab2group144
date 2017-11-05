@@ -30,11 +30,11 @@ body,
 }
 
 .search-form form input {
-  background-color: #004074;
+  background-color: $search-form;
 }
 
 .responsive_menu {
-  background-color: #00569d;
+  background-color: $main_mobile;
 }
 
 .slider-caption,
@@ -51,12 +51,12 @@ body,
 .social_icons li a,
 .footer-media-icons li a,
 .flex-direction-nav a {
-  background-color: #003a6a;
+  background-color: $main;
 }
 
 .main-navigation,
 .site-footer {
-  background-color: #004884;
+  background-color: $navigation;
 }
 
 blockquote,
@@ -72,7 +72,7 @@ blockquote,
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  background-color: #4782b2;
+  background-color: $links;
 }
 
 /**** Text Colors ****/
@@ -123,40 +123,42 @@ body,
 
 .menu-toggle-btn,
 .menu-toggle-btn:hover {
-  color: #003a6a;
+  color: $main;
 }
 
 .main-menu a,
 .main-menu li.active .sub-menu a,
 .main-menu li ul li:before,
 .site-header,
-.site-header a {
-  color: #8ab5d6;
+.site-header a,
+.responsive_menu a,
+.responsive_menu a:hover {
+  color: $main-text;
 }
 
 .site-header a:hover {
-  color: #5191c2;
+  color: $header-link-hover;
 }
 
 .small-links li:not(:last-child):after,
 .flex-direction-nav a:hover {
-  color: #4185b9;
+  color: $small-links;
 }
 
 .site-footer {
-  color: #6b90ad;
+  color: $main-text;
 }
 
 .site-footer a {
-  color: #8ab5d6;
+  color: $footer-link;
 }
 
 .footer-nav li:not(:first-child):before {
-  color: #4e718d;
+  color: $footer-small-links;
 }
 
 .bottom-footer p.small-text {
-  color: #6b90ad;
+  color: $main-text;
 }
 
 a,
@@ -164,7 +166,11 @@ blockquote h5,
 .blog-categories ul li a:hover,
 .author-name a,
 .author-name a:hover {
-  color: #4782b2;
+  color: $links;
+}
+
+a:hover {
+  color: $links-hover;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -183,7 +189,7 @@ h1, h2, h3, h4, h5, h6,
 .input-select select,
 .event-contact ul li,
 .comment-form input,
-.comment-form textarea
+.comment-form textarea,
 .contact-form input,
 .contact-form textarea,
 .course-search-form input,
@@ -220,11 +226,11 @@ blockquote,
 .search-form form input,
 .main-navigation,
 .main-menu li {
-  border-color: #00569d;
+  border-color: $main-mobile;
 }
 
 .main-menu li ul li {
-  border-color: #004884;
+  border-color: $navigation;
 }
 
 body,
@@ -239,10 +245,15 @@ body,
 }
 
 .bottom-footer {
-  border-color: #003a6a;
+  border-color: $main;
 }
 
 .course-list dt,
 .course-list dt:last-of-type {
   border-color: #e7eaed;
+}
+
+.main_menu li,
+.main_menu {
+  border-color: $main-border !important;
 }

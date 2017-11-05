@@ -3619,7 +3619,9 @@ body,
 .main-menu li.active .sub-menu a,
 .main-menu li ul li:before,
 .site-header,
-.site-header a {
+.site-header a,
+.responsive_menu a,
+.responsive_menu a:hover {
   color: #8ab5d6; }
 
 .site-header a:hover {
@@ -3630,7 +3632,7 @@ body,
   color: #4185b9; }
 
 .site-footer {
-  color: #6b90ad; }
+  color: #8ab5d6; }
 
 .site-footer a {
   color: #8ab5d6; }
@@ -3639,7 +3641,7 @@ body,
   color: #4e718d; }
 
 .bottom-footer p.small-text {
-  color: #6b90ad; }
+  color: #8ab5d6; }
 
 a,
 blockquote h5,
@@ -3647,6 +3649,9 @@ blockquote h5,
 .author-name a,
 .author-name a:hover {
   color: #4782b2; }
+
+a:hover {
+  color: #2f4bb2; }
 
 h1, h2, h3, h4, h5, h6,
 .dark-text,
@@ -3663,7 +3668,7 @@ h1, h2, h3, h4, h5, h6,
 .input-select select,
 .event-contact ul li,
 .comment-form input,
-.comment-form textarea
+.comment-form textarea,
 .contact-form input,
 .contact-form textarea,
 .course-search-form input,
@@ -3717,6 +3722,10 @@ body,
 .course-list dt,
 .course-list dt:last-of-type {
   border-color: #e7eaed; }
+
+.main_menu li,
+.main_menu {
+  border-color: #3684ca !important; }
 
 @media (max-width: 991px) {
   .header-left, .header-right {

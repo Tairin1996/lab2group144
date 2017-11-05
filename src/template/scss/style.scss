@@ -8,6 +8,25 @@
 	License URI: http://
 	Tags:
 --*/
+
+$main: #003a6a;
+$main-text: #8ab5d6;
+$main-mobile: #00569d;
+$navigation: #004884;
+
+$search-form: #004074;
+
+$links:#4782b2;
+$links-hover: #2f4bb2;
+$small-links: #4185b9;
+
+$header-link-hover: #5191c2;
+
+$footer-link: #8ab5d6;
+$footer-small-links: #4e718d;
+
+$main-border: #3684ca;
+
 @import "../../vendor/bootstrap/css/bootstrap.css";
 @import "../../font/font-awesome.min.css";
 @import "../../template/scss/animate.scss";
