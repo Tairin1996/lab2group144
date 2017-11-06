@@ -1,0 +1,89 @@
+.event-container {
+  padding: 20px;
+}
+
+.event-container,
+.event-contact{
+  margin-top: 30px;
+}
+
+.event-container .event-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+.event-container .event-time {
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  margin: 20px 0;
+}
+.event-title {
+  margin: 0 0 10px 0;
+}
+
+.left-event-content {
+  float: left;
+  position: relative;
+}
+
+.right-event-content {
+  float: right;
+  width: 65%;
+}
+.right-event-content p {
+  margin-bottom: 20px;
+}
+
+.event-contact h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.event-contact ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+  list-style: none;
+}
+.event-contact ul li {
+  line-height: 24px;
+}
+
+.event-small-list {
+  display: block;
+  padding-top: 15px;
+}
+
+.event-small-list:first-child {
+  padding-top: 0 !important;
+}
+
+.event-small-list:last-child {
+  margin-bottom: 0 !important;
+}
+
+.event-small-list:not(:last-child){
+  padding-bottom: 15px;
+  border-bottom: 1px dashed;
+}
+
+.event-small-title,
+.event-title {
+  margin: 2px 0 0 0;
+}
+
+.event-small-title a,
+.event-title a {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.event-small-meta {
+  margin: 0;
+}
+
+.event-small-details {
+  overflow: hidden;
+}
