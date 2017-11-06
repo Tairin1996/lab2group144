@@ -237,7 +237,6 @@ blockquote h5 {
 .event-container,
 .event-contact,
 .prev-next-post,
-.course-post,
 #disqus_thread,
 .site-footer,
 .widget-item,
@@ -251,7 +250,6 @@ blockquote h5 {
 
 .event-container,
 .contact-page-content,
-.course-details,
 #disqus_thread,
 .widget-item,
 .widget-main-title,
@@ -686,40 +684,6 @@ input, select {
   font-size: 14px;
 }
 
-.course-search h3 {
-  margin: 0 0 20px 0;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.course-search-form input, .course-search-form select {
-  border: 1px solid;
-  height: 32px;
-  padding: 0 10px;
-}
-.course-search-form label {
-  font-weight: 400;
-  font-size: 12px !important;
-}
-.course-search-form select {
-  background-image: url("../../template/img/select-arrow.png");
-  background-repeat: no-repeat;
-  background-position: right center;
-}
-.course-search-form .searchbox {
-  width: 63%;
-}
-.course-search-form .mainBtn {
-  height: 36px;
-  font-size: 13px;
-}
-
-.course-search-form select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
 #search_advanced .searchselect {
   display: block;
 }
@@ -746,51 +710,4 @@ input, select {
   height: auto;
 }
 
-.course-list dt {
-  border: 1px solid;
-  position: relative;
-  border-bottom: 0;
-  clear: both;
-  padding: 15px;
-}
-.course-list dt:last-of-type {
-  border-bottom: 1px solid;
-}
-.course-list dt a {
-  display: block;
-}
-.course-list .ui-icon {
-  position: absolute;
-  right: 1em;
-  top: 50%;
-  margin-top: -8px;
-}
-.course-list .level {
-  float: left;
-  width: 140px;
-  font-size: 12px;
-}
-
-.course-post p {
-  margin-bottom: 20px;
-}
-.course-post ul {
-  margin: 0 0 20px 0;
-}
-.course-post .mainBtn {
-  height: 36px;
-  line-height: 36px;
-  display: inline-block;
-}
-
-.course-image {
-  overflow: hidden;
-}
-.course-image img {
-  width: 100%;
-}
-
-.course-post-title {
-  margin: 10px 0 20px 0;
-}
 
