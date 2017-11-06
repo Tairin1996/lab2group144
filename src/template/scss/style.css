@@ -2734,9 +2734,7 @@ blockquote h5 {
 .load-more-btn,
 .event-container,
 .event-contact,
-.blog-grid-item,
 .prev-next-post,
-#blog-author,
 .course-post,
 #disqus_thread,
 .site-footer,
@@ -2749,8 +2747,6 @@ blockquote h5 {
   margin-top: 30px; }
 
 .event-container,
-#blog-author,
-.blog-comments-content,
 .contact-page-content,
 .course-details,
 #disqus_thread,
