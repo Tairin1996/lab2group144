@@ -1,0 +1,48 @@
+.blog-post-inner {
+  padding: 20px;
+}
+
+.blog-post-container,
+.blog-post-comments {
+  margin-top: 30px;
+}
+
+.blog-post-image {
+  overflow: hidden;
+  position: relative;
+}
+.blog-post-image .blog-post-meta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.blog-post-image .blog-post-meta ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.blog-post-image .blog-post-meta ul li {
+  padding: 7px 10px;
+  margin-top: 1px;
+}
+.blog-post-image .blog-post-meta ul li i {
+  margin-right: 10px;
+}
+.blog-post-image img {
+  width: 100%;
+}
+
+.blog-post-inner p {
+  margin-bottom: 20px;
+}
+.blog-post-inner .blog-post-title {
+  margin: 10px 0 20px 0;
+}
+
+.blog-author-img {
+  float: left;
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
