@@ -3162,6 +3162,334 @@ input, select {
   width: auto;
   height: auto; }
 
+.archive-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 30px 0 15px 0; }
+
+.archive-list {
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 0; }
+
+.archive-list li {
+  line-height: 24px; }
+
+#blog-author {
+  margin-top: 30px; }
+
+#blog-author {
+  padding: 20px; }
+
+.blog-post-inner {
+  padding: 20px; }
+
+.blog-post-container,
+.blog-post-comments {
+  margin-top: 30px; }
+
+.blog-post-image {
+  overflow: hidden;
+  position: relative; }
+
+.blog-post-image .blog-post-meta {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+.blog-post-image .blog-post-meta ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.blog-post-image .blog-post-meta ul li {
+  padding: 7px 10px;
+  margin-top: 1px; }
+
+.blog-post-image .blog-post-meta ul li i {
+  margin-right: 10px; }
+
+.blog-post-image img {
+  width: 100%; }
+
+.blog-post-inner p {
+  margin-bottom: 20px; }
+
+.blog-post-inner .blog-post-title {
+  margin: 10px 0 20px 0; }
+
+.blog-author-img {
+  float: left;
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden; }
+
+.blog-grid-item {
+  margin-top: 30px; }
+
+.blog-comments-content {
+  padding: 20px; }
+
+.blog-list-title,
+.blog-grid-title {
+  margin: 2px 0 0 0; }
+
+.blog-list-title a,
+.blog-grid-title a {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 14px; }
+
+.blog-list-meta,
+.blog-grid-meta {
+  margin: 0; }
+
+.blog-list-post {
+  display: block;
+  padding-top: 15px; }
+
+.blog-list-post:first-child {
+  padding-top: 0 !important; }
+
+.blog-list-post:last-child {
+  margin-bottom: 0 !important; }
+
+.blog-list-post:not(:last-child) {
+  padding-bottom: 15px;
+  border-bottom: 1px dashed; }
+
+.blog-list-thumb {
+  float: left;
+  width: 65px;
+  height: 65px;
+  display: block;
+  margin-right: 15px; }
+
+.blog-list-thumb img {
+  width: 100%;
+  height: 100%; }
+
+.blog-list-details {
+  overflow: hidden; }
+
+.blog-grid-item .blog-grid-title {
+  line-height: 22px;
+  margin-bottom: 10px; }
+
+.blog-grid-thumb {
+  overflow: hidden;
+  height: 220px;
+  position: relative; }
+
+.blog-grid-thumb .cat-blog {
+  height: 26px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 10px;
+  line-height: 26px; }
+
+.blog-grid-thumb img {
+  width: 100%;
+  height: 100%; }
+
+.blog-categories {
+  padding: 0 20px; }
+
+.blog-categories ul {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+  list-style-type: square; }
+
+.blog-categories ul li {
+  line-height: 24px; }
+
+.blog-comments-content .media-heading {
+  margin: 3px 0 5px 0;
+  font-size: 14px;
+  font-weight: 600; }
+
+.blog-comments-content .media-object {
+  margin-right: 5px; }
+
+.blog-comments-content .media:not(:last-child) {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed; }
+
+.blog-comments-content .media .media {
+  border-top: 1px dashed;
+  margin-top: 35px;
+  padding-top: 20px; }
+
+.contact-page-content,
+.contact-form,
+.contact-map {
+  margin-top: 30px; }
+
+.contact-heading h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 5px 0 15px 0; }
+
+.contact-form .contact-label {
+  float: left;
+  display: block;
+  width: 30%; }
+
+.contact-form label {
+  margin: 0; }
+
+.contact-form .small-text {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+  line-height: 12px; }
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid;
+  font-size: 12px;
+  padding: 0 10px;
+  outline: 0; }
+
+.contact-form input {
+  height: 36px;
+  width: 45%; }
+
+.contact-form textarea {
+  padding: 10px;
+  width: 70%;
+  max-width: 70%; }
+
+.contact-form .full-row {
+  margin-top: 20px; }
+
+.contact-form .full-row:first-of-type {
+  margin-top: 0; }
+
+.contact-form .mainBtn {
+  margin-left: 30%;
+  width: auto;
+  font-size: 13px; }
+
+.contact-map {
+  padding: 6px; }
+
+.course-post {
+  margin-top: 30px; }
+
+.course-details {
+  padding: 20px; }
+
+.course-post p {
+  margin-bottom: 20px; }
+
+.course-post ul {
+  margin: 0 0 20px 0; }
+
+.course-post .mainBtn {
+  height: 36px;
+  line-height: 36px;
+  display: inline-block; }
+
+.course-post-title {
+  margin: 10px 0 20px 0; }
+
+.course-image {
+  overflow: hidden; }
+
+.course-image img {
+  width: 100%; }
+
+.course-list dt {
+  border: 1px solid;
+  position: relative;
+  border-bottom: 0;
+  clear: both;
+  padding: 15px; }
+
+.course-list dt:last-of-type {
+  border-bottom: 1px solid; }
+
+.course-list dt a {
+  display: block; }
+
+.course-list .ui-icon {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  margin-top: -8px; }
+
+.course-list .level {
+  float: left;
+  width: 140px;
+  font-size: 12px; }
+
+.course-search h3 {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  font-weight: 600; }
+
+.course-search-form input, .course-search-form select {
+  border: 1px solid;
+  height: 32px;
+  padding: 0 10px; }
+
+.course-search-form label {
+  font-weight: 400;
+  font-size: 12px !important; }
+
+.course-search-form select {
+  background-image: url("../../template/img/select-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right center; }
+
+.course-search-form .searchbox {
+  width: 63%; }
+
+.course-search-form .mainBtn {
+  height: 36px;
+  font-size: 13px; }
+
+.course-search-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+.gallery-item {
+  margin-top: 30px; }
+
+.gallery-title {
+  margin: 2px 0 0 0; }
+
+.gallery-title a {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 14px; }
+
+.gallery-thumb {
+  position: relative;
+  overflow: hidden; }
+
+.gallery-thumb img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.gallery-content {
+  padding: 12px 20px; }
+
+.gallery-content p {
+  margin-top: 5px;
+  margin-bottom: 0; }
+
 /*-----------------------------------------------------------------------------------*/
 /*	FOOTER
 /*-----------------------------------------------------------------------------------*/

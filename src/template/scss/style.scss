@@ -29,11 +29,23 @@ $main-border: #3684ca;
 
 @import "../../vendor/bootstrap/css/bootstrap.css";
 @import "../../font/font-awesome.min.css";
-@import "../../template/scss/animate.scss";
+@import "animate";
 
 @import "../../vendor/misc";
 @import "header";
+
 @import "mainpage";
+
+@import "archive";
+@import "blog_item";
+@import "blog_list";
+@import "contact";
+@import "course_item";
+@import "course_list";
+@import "event_item";
+@import "event_list";
+@import "gallery";
+
 @import "footer";
 @import "variables";
 @import "responsive";
