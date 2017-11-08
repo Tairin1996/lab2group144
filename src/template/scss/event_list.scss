@@ -22,3 +22,17 @@
   filter: alpha(opacity=80);
   /* For IE8 and earlier */
 }
+
+.list-event-header {
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+.list-event-header span i {
+  margin-right: 10px;
+}
+.list-event-header .event-place {
+  margin-right: 20px;
+}
+.list-event-header .view-details {
+  float: right;
+}
