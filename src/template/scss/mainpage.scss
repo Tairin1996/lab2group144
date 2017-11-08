@@ -340,24 +340,20 @@ input, select {
   margin-bottom: 10px;
 }
 
-.event-small-list,
 .prof-list-item {
   display: block;
   padding-top: 15px;
 }
 
-.event-small-list:first-child,
 .prof-list-item:first-child {
   padding-top: 0 !important;
 }
 
 
-.event-small-list:last-child,
 .prof-list-item:last-child {
   margin-bottom: 0 !important;
 }
 
-.event-small-list:not(:last-child),
 .prof-list-item:not(:last-child) {
   padding-bottom: 15px;
   border-bottom: 1px dashed;

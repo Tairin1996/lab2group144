@@ -11,7 +11,9 @@
 
 @import "css/gallery.css";
 @import "css/blog_list.css";
-
+@import "css/event_list.css";
+@import "css/event_item.css";
+@import "css/header.css";
 
 @import "css/misc.css";
 @import "css/main.css";
