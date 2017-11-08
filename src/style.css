@@ -10,6 +10,9 @@
 --*/
 
 @import "css/gallery.css";
+@import "css/contact.css";
+@import "css/course_item.css";
+@import "css/course_list.css";
 @import "css/blog_list.css";
 @import "css/blog_item.css";
 @import "css/event_list.css";

@@ -6,6 +6,20 @@ a {
   transition: all 0.1s ease-in-out;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', serif;
+}
+
+
+.event-contact ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+  list-style: none;
+}
+.event-contact ul li {
+  line-height: 24px;
+}
+
 .blog-grid-item,
 .blog-post-container,
 #blog-author,

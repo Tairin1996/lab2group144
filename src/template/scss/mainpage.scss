@@ -235,12 +235,7 @@ blockquote h5 {
 .grid-event-item,
 .load-more-btn,
 .event-container,
-.event-contact
 .prev-next-post,
-.contact-page-content,
-.contact-form,
-.contact-map,
-.course-post,
 #disqus_thread,
 .site-footer,
 .widget-item,
@@ -253,8 +248,6 @@ blockquote h5 {
 }
 
 .event-container,
-.contact-page-content,
-.course-details,
 #disqus_thread,
 .widget-item,
 .widget-main-title,
@@ -558,20 +551,6 @@ input, select {
   margin-bottom: 20px;
 }
 
-.event-contact h4 {
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-.event-contact ul {
-  padding: 0;
-  margin: 10px 0 0 0;
-  list-style: none;
-}
-.event-contact ul li {
-  line-height: 24px;
-}
-
 #Grid .mix {
   display: none;
   opacity: 0;
@@ -672,58 +651,6 @@ input, select {
   font-size: 14px;
 }
 
-.contact-heading h3 {
-  font-size: 22px;
-  font-weight: 500;
-  margin: 5px 0 15px 0;
-}
-
-.contact-form .contact-label {
-  float: left;
-  display: block;
-  width: 30%;
-}
-.contact-form label {
-  margin: 0;
-}
-.contact-form .small-text {
-  display: block;
-  font-weight: 400;
-  font-size: 12px;
-  margin: 0;
-  line-height: 12px;
-}
-.contact-form input, .contact-form textarea {
-  border: 1px solid;
-  font-size: 12px;
-  padding: 0 10px;
-  outline: 0;
-}
-.contact-form input {
-  height: 36px;
-  width: 45%;
-}
-.contact-form textarea {
-  padding: 10px;
-  width: 70%;
-  max-width: 70%;
-}
-.contact-form .full-row {
-  margin-top: 20px;
-}
-.contact-form .full-row:first-of-type {
-  margin-top: 0;
-}
-.contact-form .mainBtn {
-  margin-left: 30%;
-  width: auto;
-  font-size: 13px;
-}
-
-.contact-map {
-  padding: 6px;
-}
-
 .archive-title {
   font-size: 18px;
   font-weight: 700;
@@ -738,40 +665,6 @@ input, select {
 }
 .archive-list li {
   line-height: 24px;
-}
-
-.course-search h3 {
-  margin: 0 0 20px 0;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.course-search-form input, .course-search-form select {
-  border: 1px solid;
-  height: 32px;
-  padding: 0 10px;
-}
-.course-search-form label {
-  font-weight: 400;
-  font-size: 12px !important;
-}
-.course-search-form select {
-  background-image: url("../../template/img/select-arrow.png");
-  background-repeat: no-repeat;
-  background-position: right center;
-}
-.course-search-form .searchbox {
-  width: 63%;
-}
-.course-search-form .mainBtn {
-  height: 36px;
-  font-size: 13px;
-}
-
-.course-search-form select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 #search_advanced .searchselect {
@@ -798,53 +691,5 @@ input, select {
 .select-yes input {
   width: auto;
   height: auto;
-}
-
-.course-list dt {
-  border: 1px solid;
-  position: relative;
-  border-bottom: 0;
-  clear: both;
-  padding: 15px;
-}
-.course-list dt:last-of-type {
-  border-bottom: 1px solid;
-}
-.course-list dt a {
-  display: block;
-}
-.course-list .ui-icon {
-  position: absolute;
-  right: 1em;
-  top: 50%;
-  margin-top: -8px;
-}
-.course-list .level {
-  float: left;
-  width: 140px;
-  font-size: 12px;
-}
-
-.course-post p {
-  margin-bottom: 20px;
-}
-.course-post ul {
-  margin: 0 0 20px 0;
-}
-.course-post .mainBtn {
-  height: 36px;
-  line-height: 36px;
-  display: inline-block;
-}
-
-.course-image {
-  overflow: hidden;
-}
-.course-image img {
-  width: 100%;
-}
-
-.course-post-title {
-  margin: 10px 0 20px 0;
 }
 
