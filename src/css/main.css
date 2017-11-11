@@ -408,19 +408,37 @@ blockquote h5 {
 /*	SETTINGS
 /*-----------------------------------------------------------------------------------*/
 
+.grid-event-item,
 .load-more-btn,
+.event-container,
+.event-contact,
+.gallery-item,
+.blog-grid-item,
+.blog-post-container,
 .prev-next-post,
+#blog-author,
+.blog-post-comments,
+.contact-page-content,
+.contact-form,
+.contact-map,
+.course-post,
 #disqus_thread,
 .site-footer,
 .widget-item,
 .widget-sidebar,
 .main-slideshow,
 .widget-main,
+.list-event-item,
 .page-title {
   margin-top: 30px;
 }
 
-
+.event-container,
+.blog-post-inner,
+#blog-author,
+.blog-comments-content,
+.contact-page-content,
+.course-details,
 #disqus_thread,
 .widget-item,
 .widget-main-title,

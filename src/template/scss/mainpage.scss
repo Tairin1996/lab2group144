@@ -232,7 +232,9 @@ blockquote h5 {
 /*-----------------------------------------------------------------------------------*/
 /*	SETTINGS
 /*-----------------------------------------------------------------------------------*/
+.grid-event-item,
 .load-more-btn,
+.event-container,
 .prev-next-post,
 #disqus_thread,
 .site-footer,
@@ -245,6 +247,7 @@ blockquote h5 {
   margin-top: 30px;
 }
 
+.event-container,
 #disqus_thread,
 .widget-item,
 .widget-main-title,
