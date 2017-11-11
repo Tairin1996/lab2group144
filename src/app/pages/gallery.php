@@ -3,52 +3,15 @@
         <div class="row">
 
             <div class="col-md-3">
-                <div class="widget-main">
-                    <div class="widget-inner">
-                        <div class="search-form-widget">
-                            <form name="search_form" method="get" action="#" class="search_form">
-                                <input type="text" name="s" placeholder="Type and click enter to search..." title="Type and click enter to search..." class="field_search">
-                            </form>
-                        </div>
-                    </div> <!-- /.widget-inner -->
-                </div> <!-- /.widget-main -->
-
-                <div class="widget-main">
-                    <div class="widget-main-title">
-                        <h4 class="widget-title">Filter Controls</h4>
-                    </div>
-                    <div class="widget-inner">
-                        <ul class="mixitup-controls">
-                            <li class="filter" data-filter="all">Show All</li>
-                            <li class="filter" data-filter="students">Students Learning</li>
-                            <li class="filter" data-filter="campus">Campus Images</li>
-                            <li class="filter" data-filter="nature">Nature Of University</li>
-                            <li class="filter" data-filter="travel">Traveling with Teachers</li>
-                        </ul>
-                    </div> <!-- /.widget-inner -->
-                </div> <!-- /.widget-main -->
-
-                <div class="widget-main">
-                    <div class="widget-main-title">
-                        <h4 class="widget-title">Sort Controls</h4>
-                    </div>
-                    <div class="widget-inner">
-                        <ul class="mixitup-controls">
-                            <li class="sort active" data-sort="default" data-order="desc">Default</li>
-                            <li class="sort" data-sort="data-cat" data-order="asc">Ascending</li>
-                            <li class="sort" data-sort="data-cat" data-order="desc">Descending</li>
-                        </ul>
-                    </div> <!-- /.widget-inner -->
-                </div> <!-- /.widget-main -->
-
+                <?php include('template/widgets/search_form_widget.tpl') ?>
+                <?php include('template/widgets/filter_controls.tpl') ?>
+                <?php include('template/widgets/sort_controls.tpl') ?>
             </div> <!-- /.col-md-3 -->
 
             <div class="col-md-9">
                 <div class="row">
 
                     <div id="Grid">
-
-
                     <div class="col-md-4 mix students" data-cat="3">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
