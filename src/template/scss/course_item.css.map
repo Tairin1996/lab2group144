@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,YAAa;EACX,UAAU,EAAE,IAAI;;AAGlB,eAAe;EACb,OAAO,EAAE,IAAI;;AAGf,cAAe;EACb,aAAa,EAAE,IAAI;;AAErB,eAAgB;EACd,MAAM,EAAE,UAAU;;AAEpB,qBAAsB;EACpB,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,IAAI;EACjB,OAAO,EAAE,YAAY;;AAEvB,kBAAmB;EACjB,MAAM,EAAE,aAAa;;AAGvB,aAAc;EACZ,QAAQ,EAAE,MAAM;;AAElB,iBAAkB;EAChB,KAAK,EAAE,IAAI",
-"sources": ["course_item.scss"],
-"names": [],
-"file": "course_item.css"
-}
