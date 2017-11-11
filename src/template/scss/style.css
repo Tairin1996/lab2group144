@@ -3154,8 +3154,9 @@ blockquote h5 {
   width: 100%;
   overflow: hidden;
   min-height: 100%;
+  width: 770px;
   height: auto;
-  height: 100%; }
+  height: 392px; }
 
 .flex-direction-nav {
   position: absolute;

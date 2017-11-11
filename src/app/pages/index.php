@@ -18,8 +18,26 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="widget-item">
-                        <h2 class="welcome-text">Welcome to Universe Premium Template</h2>
-                        <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, adipisci, quibusdam, ad ab quisquam esse aspernatur exercitationem aliquam at fugit omnis vitae recusandae eveniet.</strong><br><br>Inventore, aliquam sequi nisi velit magnam accusamus reprehenderit nemo necessitatibus doloribus molestiae fugit repellat repudiandae dolor. Incidunt, nulla quidem illo suscipit nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, dolorem, fugiat, commodi totam accusantium illo incidunt quis eius eum iure et fugit voluptas atque ratione nobis sed omnis quod ipsa.<br><br>Vivamus mattis nibh vitae dui egestas posuere. Maecenas a est at enim blandit interdum. Cras eget ipsum ac nunc tristique tincidunt sit amet nec quam. Vivamus sed suscipit enim, et dignissim tellus.</p>
+                        <h2 class="welcome-text">Доборо пожаловать во 2 лабу по вебке</h2>
+                        <p><strong> Если ты это читаешь, то ты решил сделать 2 лабу по вебке.<br>
+                                Что тут делать:
+                                <br><br>
+                                С самого начала нужно пульнуть master ветку к себе. Настраиваете SSL ключ (google в помощь)
+                                <br><br>
+                                Нужно спулить ветку master к себе.<br>
+                                * git clone git@github.com:nikon72ru/lab2group144.git
+                                <br><br>
+                                Затем создаем свою ветку<br>
+                                * git branch BRANCH_NAME
+                                <br><br>
+                                Делаем задания в этой папке
+                                <br><br>
+                                * git add . //Добавляешь файлы в локальный репозиторий (Точка означает добавить все файлы из папки, можно выборочно)<br>
+                                * git commit -m "*COMMIT MESSAGE*" //коммитим (в commit message можешь написать, какой ты классный)<br>
+                                * git push -u origin *BRANCH NAME* //Заливаем свой коммит в ветку, BRANCH NAME, соответсвенно, надо заменить на название свой ветки (не пуште в мастер)<br>
+                                * Убеждаемся, что все хорошо, и делаем PR (pull request) в мастер, пишем мне
+                                <br><br>
+                                Готово! Вы велеколепны !!!!</p>
                     </div> <!-- /.widget-item -->
                 </div> <!-- /.col-md-12 -->
             </div> <!-- /.row -->
