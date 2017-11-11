@@ -1,0 +1,43 @@
+.widget-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.widget-main-title {
+  border-bottom: 1px solid;
+}
+
+.widget-item,
+.widget-sidebar,
+.widget-main{
+  margin-top: 30px;
+}
+
+.widget-item,
+.widget-main-title,
+.widget-inner{
+  padding: 20px;
+}
+
+.search-form-widget input {
+  border: 1px solid;
+  width: 100%;
+  padding: 7px 10px;
+}
+
+.widget-item,
+.widget-main,
+.widget-main-title{
+  background-color: white;
+}
+
+.footer-widget-title{
+  color: white;
+}
+
+.widget-main-title,
+.search-form-widget input{
+  border-color: #d5dbe0 !important;
+}
