@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="footer-widget">
-                    <h4 class="footer-widget-title">Contact Us</h4>
-                    <p>The simple contact form below comes packed within this theme. <br><br>Mailing address:<br>877 Filbert Street<br> Chester, PA 19013</p>
+                    <h4 class="footer-widget-title">Напишите нам</h4>
+                    <p>Можете придти по этому адресу и мы вам забабахаем такой же сайтик за 100000$ <br><br>Адрес:<br>Перекопская ул. 15А<br>Тюмень 625003</p>
                 </div>
             </div>
             <div class="col-md-2">
@@ -65,15 +65,15 @@
         <div class="bottom-footer">
             <div class="row">
                 <div class="col-md-5">
-                    <p class="small-text">&copy; Copyright 2014. Universe designed by <a href="#">Esmeth</a></p>
+                    <p class="small-text">&copy; Copyright. Дизайн TSU <a href="#">ИМиКН</a></p>
                 </div> <!-- /.col-md-5 -->
                 <div class="col-md-7">
                     <ul class="footer-nav">
-                        <li><a href="<?php echo $menu['pages']['index.php']['link']; ?>">Home</a></li>
-                        <li><a href="<?php echo $menu['course']['index.php']['link']; ?>">Courses</a></li>
-                        <li><a href="<?php echo $menu['event']['index.php']['link']; ?>">Events</a></li>
-                        <li><a href="<?php echo $menu['blog']['index.php']['link']; ?>">Blog</a></li>
-                        <li><a href="<?php echo $menu['pages']['contact.php']['link']; ?>">Contact</a></li>
+                        <li><a href="<?php echo $menu['pages']['index.php']['link']; ?>">Главная</a></li>
+                        <li><a href="<?php echo $menu['course']['index.php']['link']; ?>">Курсы</a></li>
+                        <li><a href="<?php echo $menu['event']['index.php']['link']; ?>">События</a></li>
+                        <li><a href="<?php echo $menu['blog']['index.php']['link']; ?>">Блог</a></li>
+                        <li><a href="<?php echo $menu['pages']['contact.php']['link']; ?>">Контакты</a></li>
                     </ul>
                 </div> <!-- /.col-md-7 -->
             </div> <!-- /.row -->
