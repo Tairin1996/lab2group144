@@ -11,6 +11,8 @@ $path = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPA
 if (!file_exists($path)) die ("Ошибка: файл $path не найден") ;
 //Добавляем шапку сайта
 include('app/header.php');
+//Приправим крошками наш проект
+include('app/breadcrumbs.php');
 //Добавляем нужную страницу в зависимости от параметров
 include($path);
 //Добавляем подвал
