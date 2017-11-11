@@ -1,0 +1,39 @@
+.main-menu {
+  padding: 0;
+  margin: 0;
+}
+.main-menu li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  border-right: 1px solid;
+  position: relative;
+}
+.main-menu li ul {
+  position: absolute;
+  width: 180px;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  border-top: 4px solid;
+}
+.main-menu li ul li {
+  width: 100%;
+  border-right: none;
+  border-bottom: 1px solid;
+  padding: 0;
+}
+.main-menu li ul li a {
+  display: block;
+  padding: 12px 20px;
+}
+.main-menu li ul li ul {
+  left: 100%;
+  top: 0;
+}
+.main-menu a {
+  display: block;
+  padding: 17px 20px;
+}
