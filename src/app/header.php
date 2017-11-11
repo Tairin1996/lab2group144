@@ -40,33 +40,33 @@
     </a>
     <div class="responsive_menu">
         <ul class="main_menu">
-            <li><a href="<?php echo $menu['pages']['index.php']['link']; ?>">Home</a></li>
-            <li><a href="#">Events</a>
+            <li><a href="<?php echo $menu['pages']['index.php']['link']; ?>">Главная</a></li>
+            <li><a href="#">События</a>
                 <ul>
-                    <li><a href="<?php echo $menu['event']['grid.php']['link']; ?>">Event Grid</a></li>
-                    <li><a href="<?php echo $menu['event']['index.php']['link']; ?>">Events List</a></li>
-                    <li><a href="<?php echo $menu['event']['item.php']['link']; ?>">Event Details</a></li>
+                    <li><a href="<?php echo $menu['event']['grid.php']['link']; ?>">Сетка событий</a></li>
+                    <li><a href="<?php echo $menu['event']['index.php']['link']; ?>">Список событий</a></li>
+                    <li><a href="<?php echo $menu['event']['item.php']['link']; ?>">Описание события</a></li>
                 </ul>
             </li>
             <li><a href="#">Courses</a>
                 <ul>
-                    <li><a href="<?php echo $menu['course']['index.php']['link']; ?>">Course List</a></li>
-                    <li><a href="<?php echo $menu['course']['item.php']['link']; ?>">Course Single</a></li>
+                    <li><a href="<?php echo $menu['course']['index.php']['link']; ?>">Курсы</a></li>
+                    <li><a href="<?php echo $menu['course']['item.php']['link']; ?>">Описание курса</a></li>
                 </ul>
             </li>
             <li><a href="#">Blog Entries</a>
                 <ul>
-                    <li><a href="<?php echo $menu['blog']['index.php']['link']; ?>">Blog Grid</a></li>
-                    <li><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Blog Single</a></li>
+                    <li><a href="<?php echo $menu['blog']['index.php']['link']; ?>">Блог</a></li>
+                    <li><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Описание блога</a></li>
                 </ul>
             </li>
-            <li><a href="">Pages</a>
+            <li><a href="">Страницы</a>
                 <ul>
-                    <li><a href="<?php echo $menu['pages']['archive.php']['link']; ?>">Archives</a></li>
-                    <li><a href="<?php echo $menu['pages']['gallery.php']['link']; ?>">Our Gallery</a></li>
+                    <li><a href="<?php echo $menu['pages']['archive.php']['link']; ?>">Архив</a></li>
+                    <li><a href="<?php echo $menu['pages']['gallery.php']['link']; ?>">Галлерея</a></li>
                 </ul>
             </li>
-            <li><a href="<?php echo $menu['pages']['contact.php']['link']; ?>">Contact</a></li>
+            <li><a href="<?php echo $menu['pages']['contact.php']['link']; ?>">Контакты</a></li>
         </ul> <!-- /.main_menu -->
         <ul class="social_icons">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -82,8 +82,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 header-left">
-                <p><i class="fa fa-phone"></i> +01 2334 853</p>
-                <p><i class="fa fa-envelope"></i> <a href="mailto:email@universe.com">email@universe.com</a></p>
+                <p><i class="fa fa-phone"></i> +7 982 920 60 35</p>
+                <p><i class="fa fa-envelope"></i> <a href="mailto:email@universe.com">a.s.bezrukov@utmn.ru</a></p>
             </div> <!-- /.header-left -->
 
             <div class="col-md-4">
@@ -96,13 +96,13 @@
 
             <div class="col-md-4 header-right">
                 <ul class="small-links">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Apply Now</a></li>
+                    <li><a href="#">О сайте</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Подписка</a></li>
                 </ul>
                 <div class="search-form">
                     <form name="search_form" method="get" action="#" class="search_form">
-                        <input type="text" name="s" placeholder="Search the site..." title="Search the site..." class="field_search">
+                        <input type="text" name="s" placeholder="Поиск по сайту..." title="Поиск по сайту..." class="field_search">
                     </form>
                 </div>
             </div> <!-- /.header-right -->
@@ -114,41 +114,41 @@
             <nav class="main-navigation clearfix visible-md visible-lg" role="navigation">
                 <ul class="main-menu sf-menu">
                     <li class="<?php echo ($menu['pages']['index.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                        <a href="<?php echo $menu['pages']['index.php']['link']; ?>">Home</a></li>
-                    <li><a href="#">Events</a>
+                        <a href="<?php echo $menu['pages']['index.php']['link']; ?>">Главная</a></li>
+                    <li><a href="#">События</a>
                         <ul class="sub-menu">
                             <li class="<?php echo ($menu['event']['grid.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['event']['grid.php']['link']; ?>">Events Grid</a></li>
+                                <a href="<?php echo $menu['event']['grid.php']['link']; ?>">Сетка событий</a></li>
                             <li class="<?php echo ($menu['event']['index.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['event']['index.php']['link']; ?>">Events List</a></li>
+                                <a href="<?php echo $menu['event']['index.php']['link']; ?>">Список событий</a></li>
                             <li class="<?php echo ($menu['event']['item.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['event']['item.php']['link']; ?>">Events Details</a>
+                                <a href="<?php echo $menu['event']['item.php']['link']; ?>">Описание события</a>
                         </ul>
                     </li>
                     <li class="<?php echo ($menu['course']['index.php']['link']== $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                        <a href="<?php echo $menu['course']['index.php']['link']; ?>">Courses</a>
+                        <a href="<?php echo $menu['course']['index.php']['link']; ?>">Курсы</a>
                         <ul class="sub-menu">
                             <li class="<?php echo ($menu['course']['item.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['course']['item.php']['link']; ?>">Course Single</a></li>
+                                <a href="<?php echo $menu['course']['item.php']['link']; ?>">Описание курса</a></li>
                 </ul>
                     </li>
                     <li class="<?php echo ($menu['blog']['index.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                        <a href="<?php echo $menu['blog']['index.php']['link']; ?>">Blog Entries</a>
+                        <a href="<?php echo $menu['blog']['index.php']['link']; ?>">Блог</a>
                         <ul class="sub-menu">
                             <li class="<?php echo ($menu['blog']['item.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['blog']['item.php']['link']; ?>">Blog Single</a></li>
+                                <a href="<?php echo $menu['blog']['item.php']['link']; ?>">Описание блога</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Pages</a>
+                    <li><a href="#">Страницы</a>
                         <ul class="sub-menu">
                             <li class="<?php echo ($menu['pages']['archives.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['pages']['archives.php']['link']; ?>">Archives</a></li>
+                                <a href="<?php echo $menu['pages']['archives.php']['link']; ?>">Архив</a></li>
                             <li class="<?php echo ($menu['pages']['gallery.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['pages']['gallery.php']['link']; ?>">Our Gallery</a></li>
+                                <a href="<?php echo $menu['pages']['gallery.php']['link']; ?>">Галлерея</a></li>
                         </ul>
                     </li>
                     <li class="<?php echo ($menu['pages']['contact.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                        <a href="<?php echo $menu['pages']['contact.php']['link']; ?>">Contact</a></li>
+                        <a href="<?php echo $menu['pages']['contact.php']['link']; ?>">Контакты</a></li>
                 </ul> <!-- /.main-menu -->
 
                 <ul class="social-icons pull-right">

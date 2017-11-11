@@ -43,20 +43,7 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <div id="disqus_thread"></div>
-                    <script type="text/javascript">
-                        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                        var disqus_shortname = 'esmeth'; // required: replace example with your forum shortname
-
-                        /* * * DON'T EDIT BELOW THIS LINE * * */
-                        (function() {
-                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                        })();
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                    <?php include('template/widgets/disqus_thread.tpl') ?>
                 </div> <!-- /.col-md-12 -->
             </div> <!-- /.row -->
 
@@ -65,92 +52,8 @@
 
         <!-- Here begin Sidebar -->
         <div class="col-md-4">
-
-            <div class="widget-main">
-                <div class="widget-main-title">
-                    <h4 class="widget-title">Top Professors</h4>
-                </div>
-                <div class="widget-inner">
-                    <div class="prof-list-item clearfix">
-                        <div class="prof-thumb">
-                            <img src="http://placehold.it/75x75" alt="Profesor Name">
-                        </div> <!-- /.prof-thumb -->
-                        <div class="prof-details">
-                            <h5 class="prof-name-list">Prof. Shawn D. Salazar</h5>
-                            <p class="small-text">Integer et nisl tincidunt, euismod orci eget, posuere nunc.</p>
-                        </div> <!-- /.prof-details -->
-                    </div> <!-- /.prof-list-item -->
-                    <div class="prof-list-item clearfix">
-                        <div class="prof-thumb">
-                            <img src="http://placehold.it/75x75" alt="Profesor Name">
-                        </div> <!-- /.prof-thumb -->
-                        <div class="prof-details">
-                            <h5 class="prof-name-list">Prof. Shawn D. Salazar</h5>
-                            <p class="small-text">Integer et nisl tincidunt, euismod orci eget, posuere nunc.</p>
-                        </div> <!-- /.prof-details -->
-                    </div> <!-- /.prof-list-item -->
-                    <div class="prof-list-item clearfix">
-                        <div class="prof-thumb">
-                            <img src="http://placehold.it/75x75" alt="Profesor Name">
-                        </div> <!-- /.prof-thumb -->
-                        <div class="prof-details">
-                            <h5 class="prof-name-list">Prof. Shawn D. Salazar</h5>
-                            <p class="small-text">Integer et nisl tincidunt, euismod orci eget, posuere nunc.</p>
-                        </div> <!-- /.prof-details -->
-                    </div> <!-- /.prof-list-item -->
-                </div> <!-- /.widget-inner -->
-            </div> <!-- /.widget-main -->
-
-            <div class="widget-main">
-                <div class="widget-main-title">
-                    <h4 class="widget-title">Our Gallery</h4>
-                </div>
-                <div class="widget-inner">
-                    <div class="gallery-small-thumbs clearfix">
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg" title="Gallery Tittle One">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg" title="Gallery Tittle Two">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                    </div> <!-- /.galler-small-thumbs -->
-                </div> <!-- /.widget-inner -->
-            </div> <!-- /.widget-main -->
-
+            <?php include('template/widgets/top_professors.tpl') ?>
+            <?php include('template/widgets/our_gallery.tpl') ?>
         </div> <!-- /.col-md-4 -->
 
     </div> <!-- /.row -->

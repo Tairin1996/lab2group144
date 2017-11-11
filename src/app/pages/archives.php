@@ -51,67 +51,8 @@
 
         <!-- Here begin Sidebar -->
         <div class="col-md-4">
-
-            <div class="widget-main">
-                <div class="widget-inner">
-                    <div class="search-form-widget">
-                        <form name="search_form" method="get" action="#" class="search_form">
-                            <input type="text" name="s" placeholder="Type and click enter to search..." title="Type and click enter to search..." class="field_search">
-                        </form>
-                    </div>
-                </div> <!-- /.widget-inner -->
-            </div> <!-- /.widget-main -->
-
-            <div class="widget-main">
-                <div class="widget-main-title">
-                    <h4 class="widget-title">Our Gallery</h4>
-                </div>
-                <div class="widget-inner">
-                    <div class="gallery-small-thumbs clearfix">
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg" title="Gallery Tittle One">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg" title="Gallery Tittle Two">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                        <div class="thumb-small-gallery">
-                            <a class="fancybox" data-fancybox-group="gallery1" href="../../template/img/slide1.jpg">
-                                <img src="http://placehold.it/70x70" alt="" />
-                            </a>
-                        </div>
-                    </div> <!-- /.galler-small-thumbs -->
-                </div> <!-- /.widget-inner -->
-            </div> <!-- /.widget-main -->
-
+            <?php include('template/widgets/search_form_widget.tpl') ?>
+            <?php include('template/widgets/our_gallery.tpl') ?>
         </div> <!-- /.col-md-4 -->
 
     </div> <!-- /.row -->
