@@ -5,8 +5,16 @@
 .site-header {
   font-size: 12px;
   border-bottom: 4px solid;
+  background-color: $main;
+  border-color: #d5d5d5;
 }
-
+.site-header,
+.site-header a{
+  color: $main-text;
+}
+.site-header a:hover {
+  color: $header-link-hover;
+}
 .header-left {
   margin-top: 70px;
 }

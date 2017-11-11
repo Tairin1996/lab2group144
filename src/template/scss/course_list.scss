@@ -8,6 +8,13 @@
 .course-list dt:last-of-type {
   border-bottom: 1px solid;
 }
+.course-list dt,
+.course-list dt:last-of-type {
+  border-color: #e7eaed;
+}
+.course-list > dt:nth-child(odd){
+  background-color: #f3f3f3;
+}
 .course-list dt a {
   display: block;
 }
@@ -32,10 +39,13 @@
   border: 1px solid;
   height: 32px;
   padding: 0 10px;
+  color: #999999;
+  border-color: #d5dbe0 !important;
 }
 .course-search-form label {
   font-weight: 400;
   font-size: 12px !important;
+  color: #666666;
 }
 .course-search-form select {
   background-image: url("../../template/img/select-arrow.png");
@@ -48,6 +58,7 @@
 .course-search-form .mainBtn {
   height: 36px;
   font-size: 13px;
+  color: white;
 }
 
 .course-search-form select {

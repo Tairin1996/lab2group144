@@ -33,17 +33,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.widget-title {
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.widget-main-title {
-  border-bottom: 1px solid;
-}
-
 .welcome-text {
   font-size: 24px;
   font-weight: 600;
@@ -236,18 +225,12 @@ blockquote h5 {
 .prev-next-post,
 #disqus_thread,
 .site-footer,
-.widget-item,
-.widget-sidebar,
 .main-slideshow,
-.widget-main,
 .page-title {
   margin-top: 30px;
 }
 .contact-page-content,
 #disqus_thread,
-.widget-item,
-.widget-main-title,
-.widget-inner,
 .box-content-inner,
 .slider-caption {
   padding: 20px;
@@ -471,12 +454,6 @@ input, select {
 #Grid .mix {
   display: none;
   opacity: 0;
-}
-
-.search-form-widget input {
-  border: 1px solid;
-  width: 100%;
-  padding: 7px 10px;
 }
 
 .mixitup-controls {

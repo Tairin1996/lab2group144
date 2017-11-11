@@ -1,14 +1,11 @@
 #blog-author {
   margin-top: 30px;
-}
-
-#blog-author {
   padding: 20px;
+  background-color: white;
 }
-
-
 .blog-post-inner {
   padding: 20px;
+  background-color: white;
 }
 
 .blog-post-container,
@@ -54,4 +51,11 @@
   width: 80px;
   height: 80px;
   overflow: hidden;
+}
+.blog-post-meta ul li {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.blog-post-meta ul li,
+.blog-post-meta ul li a{
+  color: white;
 }

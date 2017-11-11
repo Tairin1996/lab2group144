@@ -18,12 +18,14 @@
   left: 0;
   padding: 0;
   border-top: 4px solid;
+  background-color: $main;
 }
 .main-menu li ul li {
   width: 100%;
   border-right: none;
   border-bottom: 1px solid;
   padding: 0;
+  border-color: $navigation;
 }
 .main-menu li ul li a {
   display: block;
@@ -36,4 +38,20 @@
 .main-menu a {
   display: block;
   padding: 17px 20px;
+  color: $main-text;
+}
+.main_menu li,
+.main_menu {
+  border-color: $main-border !important;
+}
+.main-menu li.active a{
+  color: #fecd0b;
+}
+.main-menu li.active .sub-menu a:hover,
+.main-menu li a:hover{
+  color: white;
+}
+.main-menu li.active .sub-menu a,
+.main-menu li ul li:before{
+  color: $main-text;
 }
