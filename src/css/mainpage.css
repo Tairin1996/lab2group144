@@ -440,19 +440,6 @@ input, select {
 .our-campus ul li img:hover {
   opacity: .8; }
 
-.grid-event-header {
-  border-bottom: 1px solid;
-  padding: 15px 20px; }
-
-.grid-event-header span i {
-  margin-right: 10px; }
-
-.grid-event-header .event-place {
-  margin-right: 20px; }
-
-.event-title {
-  margin: 0 0 10px 0; }
-
 .load-more-btn {
   text-align: center;
   border-bottom: 2px solid; }

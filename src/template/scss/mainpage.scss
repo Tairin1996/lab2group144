@@ -232,9 +232,7 @@ blockquote h5 {
 /*-----------------------------------------------------------------------------------*/
 /*	SETTINGS
 /*-----------------------------------------------------------------------------------*/
-.grid-event-item,
 .load-more-btn,
-.event-container,
 .prev-next-post,
 #disqus_thread,
 .site-footer,
@@ -247,7 +245,6 @@ blockquote h5 {
   margin-top: 30px;
 }
 
-.event-container,
 #disqus_thread,
 .widget-item,
 .widget-main-title,
@@ -452,21 +449,6 @@ input, select {
   opacity: .8;
 }
 
-.grid-event-header {
-  border-bottom: 1px solid;
-  padding: 15px 20px;
-}
-.grid-event-header span i {
-  margin-right: 10px;
-}
-.grid-event-header .event-place {
-  margin-right: 20px;
-}
-
-.event-title {
-  margin: 0 0 10px 0;
-}
-
 .load-more-btn {
   text-align: center;
   border-bottom: 2px solid;
@@ -524,31 +506,6 @@ input, select {
   height: 32px;
   padding: 0 12px;
   line-height: 32px;
-}
-
-.event-container .event-title {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-}
-.event-container .event-time {
-  font-size: 15px;
-  font-weight: 700;
-  display: block;
-  margin: 20px 0;
-}
-
-.left-event-content {
-  float: left;
-  position: relative;
-}
-
-.right-event-content {
-  float: right;
-  width: 65%;
-}
-.right-event-content p {
-  margin-bottom: 20px;
 }
 
 #Grid .mix {
