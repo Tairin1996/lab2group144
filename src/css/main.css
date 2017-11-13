@@ -513,6 +513,10 @@ input, select {
   border: 1px solid;
 }
 
+.event-title {
+  margin: 0 0 10px 0;
+}
+
 .full-row {
   margin-bottom: 10px;
 }
