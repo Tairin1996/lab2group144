@@ -1,30 +1,11 @@
-.grid-event-item{
-  margin-top: 30px;
-}
-
-.event-contact h4 {
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-.event-contact ul {
-  padding: 0;
-  margin: 10px 0 0 0;
-  list-style: none;
-}
-.event-contact ul li {
-  line-height: 24px;
-}
-
-.event-contact{
-  margin-top: 30px; }
-
-.event-container{
-  margin-top: 30px;
-}
-
-.event-container{
+.event-container {
   padding: 20px;
+  background-color: white;
+}
+
+.event-container,
+.event-contact{
+  margin-top: 30px;
 }
 
 .event-container .event-title {
@@ -37,20 +18,10 @@
   font-weight: 700;
   display: block;
   margin: 20px 0;
+  color: #fecd0b;
 }
-
-.list-event-item .list-event-header {
-  margin-bottom: 10px;
-  line-height: 32px;
-}
-.list-event-item .list-event-header span i {
-  margin-right: 10px;
-}
-.list-event-item .list-event-header .event-place {
-  margin-right: 20px;
-}
-.list-event-item .list-event-header .view-details {
-  float: right;
+.event-title {
+  margin: 0 0 10px 0;
 }
 
 .left-event-content {
@@ -66,51 +37,44 @@
   margin-bottom: 20px;
 }
 
-.grid-event-header {
-  border-bottom: 1px solid;
-  padding: 15px 20px;
+.event-contact h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-.grid-event-header span i {
-  margin-right: 10px;
+.event-contact ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+  list-style: none;
 }
-.grid-event-header .event-place {
-  margin-right: 20px;
-}
-
-.blog-grid-title,
-.event-small-title,
-.event-title,
-.gallery-title {
-  margin: 2px 0 0 0; }
-
-
-.event-title {
-  margin: 0 0 10px 0;
+.event-contact ul li {
+  line-height: 24px;
+  color: #999999;
 }
 
-.event-small-list{
+.event-small-list {
   display: block;
-  padding-top: 15px; }
+  padding-top: 15px;
+  border-color: #d5dbe0 !important;
+}
 
-.event-small-list:first-child{
-  padding-top: 0 !important; }
+.event-small-list:first-child {
+  padding-top: 0 !important;
+}
 
-.event-small-list:last-child{
-  margin-bottom: 0 !important; }
+.event-small-list:last-child {
+  margin-bottom: 0 !important;
+}
 
 .event-small-list:not(:last-child){
   padding-bottom: 15px;
-  border-bottom: 1px dashed; }
-
-.event-title {
-  margin: 0 0 10px 0;
+  border-bottom: 1px dashed;
 }
 
 .event-small-title,
-.event-title{
+.event-title {
   margin: 2px 0 0 0;
 }
-
 
 .event-small-title a,
 .event-title a {
@@ -120,7 +84,11 @@
   font-size: 14px;
 }
 
-
-.event-small-meta{
+.event-small-meta {
   margin: 0;
+  color: #666666;
+}
+
+.event-small-details {
+  overflow: hidden;
 }

@@ -1,17 +1,13 @@
-
 .contact-page-content,
 .contact-form,
-.contact-map,
-.course-post{
-  margin-top: 30px; }
-
-.contact-page-content{
-  padding: 20px; }
-
-h3, h4 {
-  font-family: 'Raleway', serif;
+.contact-map {
+  margin-top: 30px;
 }
 
+.contact-page-content,
+.contact-map{
+  background-color: white;
+}
 
 .contact-heading h3 {
   font-size: 22px;
@@ -34,11 +30,14 @@ h3, h4 {
   margin: 0;
   line-height: 12px;
 }
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   border: 1px solid;
   font-size: 12px;
   padding: 0 10px;
   outline: 0;
+  color: #999999;
+  border-color: #d5dbe0 !important;
 }
 .contact-form input {
   height: 36px;

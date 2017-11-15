@@ -1,3 +1,6 @@
+.list-event-item {
+  margin-top: 30px;
+}
 
 .list-event-thumb {
   float: left;
@@ -24,16 +27,16 @@
   /* For IE8 and earlier */
 }
 
-.list-event-header {
+.list-event-item .list-event-header {
   margin-bottom: 10px;
   line-height: 32px;
 }
-.list-event-header span i {
+.list-event-item .list-event-header span i {
   margin-right: 10px;
 }
-.list-event-header .event-place {
+.list-event-item .list-event-header .event-place {
   margin-right: 20px;
 }
-.list-event-header .view-details {
+.list-event-item .list-event-header .view-details {
   float: right;
 }

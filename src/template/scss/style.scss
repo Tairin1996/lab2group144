@@ -10,21 +10,29 @@
 --*/
 @import "../../vendor/bootstrap/css/bootstrap.css";
 @import "../../font/font-awesome.min.css";
-@import "../../template/scss/animate.scss";
+@import "animate";
 
+@import "variables";
 @import "../../vendor/misc";
 @import "header";
-@import "mainpage";
-@import "footer";
-@import "variables";
-@import "responsive";
 
-@import "gallery.css";
-@import "contact.css";
-@import "course_item.css";
-@import "course_list.css";
-@import "blog_list.css";
-@import "blog_item.css";
-@import "event_list.css";
-@import "event_item.css";
-@import "header.css";
+
+
+@import "archive";
+@import "blog_item";
+@import "blog_list";
+@import "contact";
+@import "course_item";
+@import "course_list";
+@import "event_item";
+@import "event_list";
+@import "event_grid";
+@import "gallery";
+
+@import "mainpage";
+@import "main_menu";
+@import "widgets";
+
+@import "footer";
+@import "base";
+@import "responsive";
