@@ -1,0 +1,130 @@
+.blog-grid-item {
+  margin-top: 30px;
+}
+
+.blog-comments-content {
+  padding: 20px;
+  background-color: white;}
+
+
+.blog-list-title,
+.blog-grid-title{
+  margin: 2px 0 0 0;
+}
+.blog-list-title a,
+.blog-grid-title a {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.blog-list-meta,
+.blog-grid-meta {
+  margin: 0;
+}
+
+.blog-list-post{
+  display: block;
+  padding-top: 15px;
+  border-color: #d5dbe0 !important;
+}
+.blog-list-post:first-child {
+  padding-top: 0 !important;
+}
+.blog-list-post:last-child{
+  margin-bottom: 0 !important;
+}
+.blog-list-post:not(:last-child) {
+  padding-bottom: 15px;
+  border-bottom: 1px dashed;
+}
+
+.blog-list-meta a,
+.blog-grid-meta a,
+blog-categories{
+  color: #666666;
+}
+
+.blog-list-thumb {
+  float: left;
+  width: 65px;
+  height: 65px;
+  display: block;
+  margin-right: 15px;
+}
+.blog-list-thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.blog-list-details {
+  overflow: hidden;
+}
+
+.blog-grid-item .blog-grid-title {
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.blog-grid-thumb {
+  overflow: hidden;
+  height: 220px;
+  position: relative;
+}
+.cat-blog{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.blog-grid-thumb .cat-blog {
+  height: 26px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 10px;
+  line-height: 26px;
+  color: white;
+}
+.blog-grid-thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.blog-categories {
+  padding: 0 20px;
+}
+.blog-categories ul {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+  list-style-type: square;
+}
+.blog-categories ul li {
+  line-height: 24px;
+}
+.blog-categories ul li a:hover{
+  color: $links;
+}
+.blog-comments-content .media-heading {
+  margin: 3px 0 5px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.blog-comments-content .media-object {
+  margin-right: 5px;
+}
+.blog-comments-content .media:not(:last-child) {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed;
+}
+.blog-comments-content .media .media {
+  border-top: 1px dashed;
+  margin-top: 35px;
+  padding-top: 20px;
+}
+.blog-comments-content .media{
+  border-color: #d5dbe0 !important;
+}
