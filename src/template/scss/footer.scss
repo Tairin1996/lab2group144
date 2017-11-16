@@ -5,6 +5,15 @@
 .site-footer {
   padding-top: 50px;
   border-top: 4px solid;
+  border-color: #d5d5d5;
+  background-color: $navigation;
+  color: $main-text;
+}
+.site-footer a {
+  color: $footer-link;
+}
+.site-footer a:hover {
+  color: #fecd0b;
 }
 
 .footer-widget-title {
@@ -39,6 +48,8 @@
   line-height: 55px;
   margin-left: 1px;
   margin-bottom: 1px;
+  background-color: $main;
+  color: white;
 }
 
 .bottom-footer {
@@ -47,8 +58,11 @@
   margin-top: 70px;
   margin-bottom: 10px;
   display: block;
+  border-color: $main;
 }
-
+.bottom-footer p.small-text {
+  color: $main-text;
+}
 .footer-nav {
   text-align: right;
   padding: 0;
@@ -62,4 +76,5 @@
 .footer-nav li:not(:first-child):before {
   padding: 0 10px;
   content: '|';
+  color: $footer-small-links;
 }
