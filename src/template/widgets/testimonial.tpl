@@ -1,18 +1,18 @@
 <div class="widget-main">
     <div class="widget-main-title">
-        <h4 class="widget-title">Testimonial</h4>
+        <h4 class="widget-title">Умные цитатки</h4>
     </div>
     <div class="widget-inner">
         <div id="slider-testimonials">
             <ul>
                 <li>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, quos, veniam optio voluptas hic delectus soluta odit nemo harum <strong class="dark-text">Shannon D. Edwards</strong></p>
+                    <p>Сердце мое заходится от того, что если бы в нашем мире было много миров, то в лучшем из них Гомера. <strong class="dark-text"><br>Власова Елизавета</strong></p>
                 </li>
                 <li>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, quos, veniam optio voluptas hic delectus soluta odit nemo harum <strong class="dark-text">Shannon D. Edwards</strong></p>
+                    <p>Кошка постарается удержаться на ваших коленях, даже когда вы встаете со стула.<strong class="dark-text"><br>Владимир Ложкин</strong></p>
                 </li>
                 <li>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, quos, veniam optio voluptas hic delectus soluta odit nemo harum <strong class="dark-text">Shannon D. Edwards</strong></p>
+                    <p>Кошки самим своим существованием опровергают утверждение, что все на свете создано для человека.<strong class="dark-text"><br>Васильева Марина</strong></p>
                 </li>
             </ul>
             <a class="prev fa fa-angle-left" href=""></a>

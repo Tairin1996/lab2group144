@@ -1,6 +1,6 @@
 <div class="widget-main">
     <div class="widget-main-title">
-        <h4 class="widget-title">Our Campus</h4>
+        <h4 class="widget-title">Наши институты</h4>
     </div> <!-- /.widget-main-title -->
     <div class="widget-inner">
         <div class="our-campus clearfix">
