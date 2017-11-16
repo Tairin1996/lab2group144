@@ -2,10 +2,7 @@
     <div class="row">
 
         <div class="col-md-5">
-            <div class="contact-map">
-                <div class="google-map-canvas" id="map-canvas" style="height: 542px;">
-                </div>
-            </div>
+            <?php include('template/widgets/google_map.tpl') ?>
         </div> <!-- /.col-md-5 -->
 
         <div class="col-md-7">
