@@ -45,19 +45,16 @@
                 <ul>
                     <li><a href="<?php echo $menu['event']['grid.php']['link']; ?>">Сетка событий</a></li>
                     <li><a href="<?php echo $menu['event']['index.php']['link']; ?>">Список событий</a></li>
-                    <li><a href="<?php echo $menu['event']['item.php']['link']; ?>">Описание события</a></li>
                 </ul>
             </li>
             <li><a href="#">Courses</a>
                 <ul>
                     <li><a href="<?php echo $menu['course']['index.php']['link']; ?>">Курсы</a></li>
-                    <li><a href="<?php echo $menu['course']['item.php']['link']; ?>">Описание курса</a></li>
                 </ul>
             </li>
             <li><a href="#">Blog Entries</a>
                 <ul>
                     <li><a href="<?php echo $menu['blog']['index.php']['link']; ?>">Блог</a></li>
-                    <li><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Описание блога</a></li>
                 </ul>
             </li>
             <li><a href="">Страницы</a>
@@ -121,23 +118,14 @@
                                 <a href="<?php echo $menu['event']['grid.php']['link']; ?>">Сетка событий</a></li>
                             <li class="<?php echo ($menu['event']['index.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
                                 <a href="<?php echo $menu['event']['index.php']['link']; ?>">Список событий</a></li>
-                            <li class="<?php echo ($menu['event']['item.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['event']['item.php']['link']; ?>">Описание события</a>
                         </ul>
                     </li>
                     <li class="<?php echo ($menu['course']['index.php']['link']== $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
                         <a href="<?php echo $menu['course']['index.php']['link']; ?>">Курсы</a>
-                        <ul class="sub-menu">
-                            <li class="<?php echo ($menu['course']['item.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['course']['item.php']['link']; ?>">Описание курса</a></li>
-                </ul>
+
                     </li>
                     <li class="<?php echo ($menu['blog']['index.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
                         <a href="<?php echo $menu['blog']['index.php']['link']; ?>">Блог</a>
-                        <ul class="sub-menu">
-                            <li class="<?php echo ($menu['blog']['item.php']['link'] == $menu[$module][$action]['link'] ? 'active' : '' ); ?>">
-                                <a href="<?php echo $menu['blog']['item.php']['link']; ?>">Описание блога</a></li>
-                        </ul>
                     </li>
                     <li><a href="#">Страницы</a>
                         <ul class="sub-menu">
