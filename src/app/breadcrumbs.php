@@ -19,7 +19,6 @@
                 } ?>
 
                 <?php
-                //TODO сделать так, чтоб бралось название статьи, а не просто "Запись блога", но пока будет так
                 if ($action != 'index.php'){
                     if ($action == 'item.php'){?>
                         <h6><span class="page-active"><?=$items[$module][$itempath]['title']?></span></h6>
