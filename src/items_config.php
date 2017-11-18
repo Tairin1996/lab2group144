@@ -7,6 +7,7 @@ $items = [
 ];
 
 //ПРИМЕРЫ ЗАПОЛНЕНИЯ $items:
+$items['blog']['404'] = ['title'=>'Страница не найдена'];
 $items['blog']['example'] = [
     'title' => 'Название статьи',
     'body' => '
@@ -18,6 +19,7 @@ $items['blog']['example'] = [
     'author_info' => 'Лучший писатель на планете после Анджея Сапковского',
 ];
 
+$items['course']['404'] = ['title'=>'Страница не найдена'];
 $items['course']['example'] = [
     'title' => 'Название курса',
     'body' => '<p>This course introduces students to basic web design using HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets). The course does not require any prior knowledge of HTML or web design. Throughout the course students are introduced to planning and designing effective web pages; implementing web pages by writing <strong>HTML and CSS code; enhancing web pages with the use of page layout techniques, text formatting, graphics, images, and multimedia; and producing a functional, multi-page website.</strong></p>
@@ -42,6 +44,7 @@ $items['course']['example'] = [
                 </blockquote>'
 ];
 
+$items['event']['404'] = ['title'=>'Страница не найдена'];
 $items['event']['example'] = [
     'title' => 'Название события',
     'body' => '<span class="event-time">Friday 22 November - Friday 24 January 2014</span>
