@@ -8,6 +8,8 @@ $menu['pages']['gallery.php']['title'] = 'Галерея';
 $menu['pages']['gallery.php']['link'] = '/?mod=pages&action=gallery.php';
 $menu['pages']['archives.php']['title'] = 'Архив';
 $menu['pages']['archives.php']['link'] = '/?mod=pages&action=archives.php';
+$menu['pages']['404.php']['title'] = 'Страница не найдена';
+$menu['pages']['404.php']['link'] = '/?mod=pages&action=404.php';
 
 $menu['blog']['index.php']['title'] = 'Блог';
 $menu['blog']['index.php']['link'] = '/?mod=blog&action=index.php';
