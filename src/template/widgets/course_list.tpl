@@ -5,7 +5,7 @@
             <dt>
                 <i class="fa fa-caret-right ui-icon"></i>
                 <span class="level">Short Courses</span>
-                <a href="<?php echo $menu['course']['item.php']['link']; ?>">Master of Business Administration <span class="label label-success">New Course</span></a>
+                <a href="<?php echo $menu['course']['item.php']['link'] . '&item=example'; ?>">Example course <span class="label label-success">New Course</span></a>
             </dt>
             <dt>
                 <i class="fa fa-caret-right ui-icon"></i>
