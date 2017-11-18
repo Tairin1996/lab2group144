@@ -1,3 +1,11 @@
+<?php
+if (array_key_exists($itempath, $items['blog'])) {
+    $item = $items['blog'][$itempath];
+}
+else{
+    $item = $items['blog']['example'];
+}
+?>
 <div class="container">
     <div class="row">
 

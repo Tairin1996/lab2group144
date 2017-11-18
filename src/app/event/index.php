@@ -16,9 +16,9 @@
                             <div class="list-event-header">
                                 <span class="event-place small-text"><i class="fa fa-globe"></i>109 Health</span>
                                 <span class="event-date small-text"><i class="fa fa-calendar-o"></i>January 08, 2014</span>
-                                <div class="view-details"><a href="<?php echo $menu['event']['item.php']['link']; ?>" class="lightBtn">View Details</a></div>
+                                <div class="view-details"><a href="<?php echo $menu['event']['item.php']['link'] . '&item=example'; ?>" class="lightBtn">View Details</a></div>
                             </div>
-                            <h5 class="event-title"><a href="<?php echo $menu['event']['item.php']['link']; ?>">January Career Centre Events for Grad Students</a></h5>
+                            <h5 class="event-title"><a href="<?php echo $menu['event']['item.php']['link']. '&item=example'; ?>">Example event</a></h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, cum, quidem aut natus odit deleniti placeat quia est quibusdam hic. Quod, minima, excepturi eum repellat tempora...</p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.list-event-item -->

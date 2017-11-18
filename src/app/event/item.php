@@ -1,3 +1,11 @@
+<?php
+if (array_key_exists($itempath, $items['event'])) {
+    $item = $items['event'][$itempath];
+}
+else{
+    $item = $items['event']['example'];
+}
+?>
 <div class="container">
     <div class="row">
 
@@ -9,26 +17,15 @@
                         <div class="left-event-content">
                             <img src="http://placehold.it/225x240" alt="">
                             <div class="event-contact">
-                                <h4>Contact Details</h4>
+                                <h4>Контактные данные:</h4>
                                 <ul>
-                                    <li>City Events Team</li>
-                                    <li>City University London</li>
-                                    <li>Northampton Square</li>
-                                    <li>London</li>
-                                    <li>EC1V 0HB</li>
-                                    <li>United Kingdom</li>
-                                    <li>+44 (0)20 7040 8037</li>
+                                    <?=$item['contact']?>
                                 </ul>
                             </div>
                         </div> <!-- /.left-event-content -->
                         <div class="right-event-content">
-                            <h2 class="event-title">Public and Patient Involvement in Health Research</h2>
-                            <span class="event-time">Friday 22 November - Friday 24 January 2014</span>
-                            <p>During this inaugural lecture Professor Amanda Burls considers the state of public and patient involvement in shared decision making and health research. Professor Burls will discuss the activities of the Network to Amanda-Burls-NuffieldSupport Understanding of Health Research and ThinkWell, a not-for-profit organisation set up to help the public understand health information so they can make.</p>
-                            <p><strong class="dark-text">Speaker:</strong> Professor Amanda Burls - Professor of Public Health, City University London</p>
-                            <p><strong class="dark-text">Location: Drysdale Lecture Theatre, Drysdale Building, City University London, EC1V 0HB</strong></p>
-                            <p>Amanda Burls is a public health physician. She founded and directs ThinkWell, a novel internet-based research programme, which aims to help the public understand health information so they can make informed health decisions and also set up and participate in research studies.</p>
-                            <p>In 2011 she co-organised a Conference on Enhancing Public Understanding of Health Research, which resulted in the formation of the International Network for Enhancing Understanding of Health Research.</p>
+                            <h2 class="event-title"><?=$item['title']?></h2>
+                            <?=$item['body']?>
                             <div class="google-map-canvas" id="map-canvas" style="height: 210px;">
                             </div>
                         </div> <!-- /.right-event-content -->

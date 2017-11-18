@@ -14,7 +14,7 @@
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">When a Doctor’s Visit Is a Guilt Trip</a></h4>
+                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link'].'&item=example'; ?>">Example blog</a></h4>
                             <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
