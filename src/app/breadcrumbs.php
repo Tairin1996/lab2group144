@@ -19,10 +19,12 @@
                 } ?>
 
                 <?php
-                //TODO сделать так, чтоб бралось название статьи, а не просто "Запись блога", но пока будет так
-                if ($action != 'index.php'){ ?>
-                    <h6><span class="page-active"><?=$menu[$module][$action]['title']?></span></h6>
-                <?php } ?>
+                if ($action != 'index.php'){
+                    if ($action == 'item.php'){?>
+                        <h6><span class="page-active"><?=$items[$module][$itempath]['title']?></span></h6>
+                    <?php } else { ?>
+                        <h6><span class="page-active"><?=$menu[$module][$action]['title']?></span></h6>
+                <?php }} ?>
             </div>
         </div>
     </div>
