@@ -49,7 +49,7 @@
                 <div class="full-row">
                     <div class="submit_field">
                         <span class="small-text pull-left">Подпишитесь на новости</span>
-                        <input class="mainBtn pull-right" type="submit" name="" value="Продать душу дьяволу">
+                        <input class="mainBtn pull-right" type="submit" name="" value="Подписаться">
                     </div> <!-- /.submit-field -->
                 </div> <!-- /.full-row -->
 
