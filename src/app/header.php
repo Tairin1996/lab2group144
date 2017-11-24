@@ -79,8 +79,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 header-left">
-                <p><i class="fa fa-phone"></i> +7 982 920 60 35</p>
-                <p><i class="fa fa-envelope"></i> <a href="mailto:a.s.bezrukov@utmn.ru">a.s.bezrukov@utmn.ru</a></p>
+                <p><i class="fa fa-phone"></i> (3452) 59-74-97 </p>
+                <p><i class="fa fa-envelope"></i> <a href="mailto:a.s.bezrukov@utmn.ru">fei@utmn.ru</a></p>
             </div> <!-- /.header-left -->
 
             <div class="col-md-4">
