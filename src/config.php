@@ -1,5 +1,5 @@
 <?php
-$website = 'Сайт из варианта';
+$website = 'Институт Государства и Права';
 $menu['pages']['index.php']['title'] = 'Главная';
 $menu['pages']['index.php']['link'] = '/';
 $menu['pages']['contact.php']['title'] = 'Контакты';
