@@ -14,23 +14,10 @@
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link'].'&item=example'; ?>">Example blog</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
-                        </div> <!-- /.box-content-inner -->
-                    </div> <!-- /.blog-grid-item -->
-                </div> <!-- /.col-md-6 -->
-
-                <div class="col-md-6 col-sm-6">
-                    <div class="blog-grid-item">
-                        <div class="blog-grid-thumb">
-                            <a href="#" class="cat-blog">Government</a>
-                            <a href="<?php echo $menu['blog']['item.php']['link']; ?>">
-                                <img src="http://placehold.it/360x220" alt="">
-                            </a>
-                        </div>
-                        <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Unlocking the scrolls of Herculaneum</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link'].'&item=example'; ?>">
+                                    Студенты ТюмГУ проверяют свои знания на стажировке в Huawei
+                                </a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">22 Ноября 2017</a></span> <span><a href="#">127 просмотров</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
@@ -44,8 +31,27 @@
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Corin Sworn wins Max Mara Art Prize</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">
+                                    Насыщенный день Блокчейн ТюмГУ
+                                </a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">21 Ноября 2017</a></span> <span><a href="#">50 просмотров</a></span></p>
+                        </div> <!-- /.box-content-inner -->
+                    </div> <!-- /.blog-grid-item -->
+                </div> <!-- /.col-md-6 -->
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="blog-grid-item">
+                        <div class="blog-grid-thumb">
+                            <a href="#" class="cat-blog">Government</a>
+                            <a href="<?php echo $menu['blog']['item.php']['link']; ?>">
+                                <img src="http://placehold.it/360x220" alt="">
+                            </a>
+                        </div>
+                        <div class="box-content-inner">
+                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">
+                                    Онлайн-соревнования по информационной безопасности "FarEasnCTF-2017"
+                                </a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">20 Ноября 2017</a></span> <span><a href="#">46 просмотров</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
@@ -59,8 +65,10 @@
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Graduate Open Day at the Ruskin</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">
+                                    Состоялся муниципальный этап Всероссийской олимпиады школьников по математике
+                                </a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">20 Ноября 2017</a></span> <span><a href="#">127 просмотров</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
@@ -74,8 +82,10 @@
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Visiting Artists: Giles Bailey</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">
+                                    Блестящая возможность Анны Жихаревой
+                                </a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">17 Ноября 2017</a></span><span><a href="#">41 просмотр</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
@@ -89,8 +99,10 @@
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Workshop: Theories of the Image</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a href="<?php echo $items['blog']['huawey']; ?>">
+                                    Осенняя сессия в компании Huawei
+                                </a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">16 Ноября 2017</a></span><span><a href="#">83 просмотра</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->

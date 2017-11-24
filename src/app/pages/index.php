@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="widget-item">
-                        <h2 class="welcome-text">Институт математики и компьютерных наук</h2>
+                        <img src="../../images/imikn_logo.jpg">
                         <p>
                             Институт математики и компьютерных наук создан 6 декабря 2005 года на базе факультета математики и компьютерных наук.
                                 <br><br>
