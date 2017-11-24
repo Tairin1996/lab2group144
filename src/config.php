@@ -25,4 +25,3 @@ $menu['event']['index.php']['title'] = 'Список событий';
 $menu['event']['index.php']['link'] = '/?mod=event&action=index.php';
 $menu['event']['item.php']['title'] = 'Описание события';
 $menu['event']['item.php']['link'] = '/?mod=event&action=item.php';
-?>
