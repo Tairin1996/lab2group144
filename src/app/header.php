@@ -79,14 +79,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 header-left">
-                <p><i class="fa fa-phone"></i> +7 982 920 60 35</p>
-                <p><i class="fa fa-envelope"></i> <a href="mailto:a.s.bezrukov@utmn.ru">a.s.bezrukov@utmn.ru</a></p>
+                <p><i class="fa fa-phone"></i>8 (3452) 59-74-29, 59-74-82</p>
+                <p><i class="fa fa-envelope"></i> <a href="mailto: igip@utmn.ru">igip@utmn.ru</a></p>
             </div> <!-- /.header-left -->
 
             <div class="col-md-4">
                 <div class="logo">
                     <a href="<?php echo $menu['pages']['index.php']['link']; ?>" title="Universe" rel="home">
-                        <img src="../template/img/logo.png" alt="Universe">
+                        <img src="../images/igip.png" alt="Universe">
                     </a>
                 </div> <!-- /.logo -->
             </div> <!-- /.col-md-4 -->
