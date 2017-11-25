@@ -10,12 +10,15 @@
                         <div class="blog-grid-thumb">
                             <a href="#" class="cat-blog">Business</a>
                             <a href="<?php echo $menu['blog']['item.php']['link']; ?>">
-                                <img src="http://placehold.it/360x220" alt="">
+                                <img src="https://www.utmn.ru/upload/iblock/7e4/IMG_3791.JPG" alt="">
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link'].'&item=example'; ?>">Example blog</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a
+                                        href="<?php echo $menu['blog']['item.php']['link'] . '&item=30years'; ?>">30-летие
+                                    кафедры</a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">June 2016</a></span> with <span><a
+                                            href="#">3 comments</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
@@ -29,7 +32,9 @@
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Unlocking the scrolls of Herculaneum</a></h4>
+                            <h4 class="blog-grid-title"><a
+                                        href="<?php echo $menu['blog']['item.php']['link'] . '&item=Raiko-Knez'; ?>">Unlocking
+                                    the scrolls of Herculaneum</a></h4>
                             <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->

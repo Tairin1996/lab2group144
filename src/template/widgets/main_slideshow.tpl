@@ -4,7 +4,8 @@
                 <li>
                     <img src="https://www.utmn.ru/upload/iblock/7e4/IMG_3791.JPG" alt="Slide 1"/>
                     <div class="slider-caption">
-                        <h2><a href="../blog/item.php">30-летие кафедры Теории государства и права и международного
+                        <h2><a href="<?php echo $menu['blog']['item.php']['link'].'&item=30years'; ?>">30-летие кафедры
+                                Теории государства и права и международного
                                 права</a></h2>
                         <p>Праздничное собрание, состоявшееся 13 мая в Институте государства и права...</p>
                     </div>

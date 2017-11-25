@@ -1,6 +1,6 @@
 <div class="blog-post-container">
     <div class="blog-post-image">
-        <img src="http://placehold.it/750x390" alt="">
+        <img src="<?=$item['image']?>" alt="">
         <div class="blog-post-meta">
             <ul>
                 <li><i class="fa fa-calendar-o"></i>24/01/2014</li>

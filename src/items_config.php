@@ -8,13 +8,19 @@ $items = [
 
 //ПРИМЕРЫ ЗАПОЛНЕНИЯ $items:
 $items['blog']['404'] = ['title'=>'Страница не найдена'];
-$items['blog']['example'] = [
-    'title' => 'Название статьи',
+$items['blog']['30years'] = [
+    'title' => '30-летие кафедры Теории государства и права и международного права',
     'body' => '
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, quis, itaque culpa rem excepturi cum sunt quae obcaecati corrupti fugiat facere error eos necessitatibus iure ut voluptates dolor enim provident!</p>
-        <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, perspiciatis, ad, pariatur placeat facere laborum aspernatur quidem sint illum eos mollitia repellendus consectetur obcaecati possimus cupiditate delectus dolores eaque blanditiis?</strong></p>
-        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, cum, quos ipsam eligendi accusantium quo amet quae commodi obcaecati nobis ratione soluta. Voluptates, obcaecati consectetur officia saepe rerum animi doloremque!</blockquote>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, magni, blanditiis, excepturi accusantium fugiat enim accusamus non libero doloribus doloremque illo error perferendis sequi dignissimos nesciunt voluptates nulla voluptatibus optio.</p>',
+    В июне 2016 г. исполняется 30 лет со дня основания кафедры теории государства и права и международного права - одной из старейших кафедр Института государства и права, ставшей впоследствии alma-mater для всех самостоятельных кафедр, действующих в ИГиП в наши дни. К этому событию были приурочены несколько мероприятий: круглый стол на тему «Политико-правовые аспекты становления и развития российской государственности», торжественное собрание, посвященное 30-летию кафедры теории государства и права и международного права, а также открытое занятие старшего преподавателя кафедры А.В. Кузнецова на тему «Война за независимость и образование США».
+    Праздничное собрание, состоявшееся 13 мая в Институте государства и права, объединило в себе торжественную часть, музыкальные и иные творческие выступления, а также многочисленные поздравления. Поздравить кафедру пришли коллеги, выпускники, работодатели, представители государственных органов, общественных организаций и т.д. В их числе начальник правового управления Тюменской областной Думы В.А. Серков, уполномоченный по правам человека в Тюменской области С.В. Миневцев, председатель избирательной комиссии Тюменской области И.Н. Халин, председатель общественной палаты Тюменской области Г.Н. Чеботарёв, генеральный директор ЗАО КК «ПРЭФИШ» С.М. Шахотин, генеральный директор ООО «ТопЛигелКонсалтинг» Н.Г. Когошвили, генеральный директор юридической компании «Аспект М» С.В. Матаев и другие. Гости собрания сказали множество тёплых слов и искренних пожеланий членам кафедры теории государства и права и международного права, отметив её многочисленные заслуги перед Институтом, Университетом и региональным юридическим образованием в целом. 
+   </p>',
+    'author_name' => 'Автор Леонидович',
+    'author_info' => 'Лучший писатель на планете после Анджея Сапковского',
+    'image' => 'https://www.utmn.ru/upload/iblock/7e4/IMG_3791.JPG'
+];
+$items['blog']['Raiko-Knez'] = [
+    'title' => 'Встреча с Райко Кнез, профессором Университета Марибора (Словения) ',
+    'body' => '<b>Райко Кнез, профессор Университета Марибора (Словения) познакомил студентов с новой магистерской программой "Международное право, европейское право" </b>',
     'author_name' => 'Автор Леонидович',
     'author_info' => 'Лучший писатель на планете после Анджея Сапковского',
 ];
