@@ -81,14 +81,18 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="blog-grid-item">
                         <div class="blog-grid-thumb">
-                            <a href="#" class="cat-blog">Science</a>
-                            <a href="<?php echo $menu['blog']['item.php']['link']; ?>">
-                                <img src="http://placehold.it/360x220" alt="">
+                            <a href="#" class="cat-blog">Student Achievements</a>
+                            <a href="<?php echo $menu['blog']['item.php']['link'] . '&item=Juravleva'; ?>">
+                                <img src="https://pp.userapi.com/c824410/v824410577/3643f/DH-g-H-mM6c.jpg" alt="">
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Visiting Artists: Giles Bailey</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a
+                                        href="<?php echo $menu['blog']['item.php']['link'] . '&item=Juravleva'; ?>">Студентка
+                                    Института государства и права стала победителем VII Всероссийского конкурса эссе на
+                                    английском языке</a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">18 November 2017</a></span> with
+                                <span><a href="#">3 comments</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
@@ -97,13 +101,17 @@
                     <div class="blog-grid-item">
                         <div class="blog-grid-thumb">
                             <a href="#" class="cat-blog">Student Achievements</a>
-                            <a href="<?php echo $menu['blog']['item.php']['link']; ?>">
-                                <img src="http://placehold.it/360x220" alt="">
+                            <a href="<?php echo $menu['blog']['item.php']['link'] . '&item=International'; ?>">
+                                <img src="https://pp.userapi.com/c841128/v841128582/3871b/DHm36DWrsN0.jpg" alt="">
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Workshop: Theories of the Image</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a
+                                        href="<?php echo $menu['blog']['item.php']['link'] . '&item=International'; ?>">Студенты
+                                    Института государства и права ТюмГУ стали призёрами Первого международного конкурса
+                                    по актуальным вопросам корпоративного права</a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">6 November 2017</a></span> with
+                                <span><a href="#">3 comments</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
