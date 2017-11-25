@@ -11,10 +11,12 @@
                     </div>
                 </li>
                 <li>
-                    <img src="https://www.utmn.ru/upload/iblock/b25/2015.12.01%20_%20018.jpg" alt="Slide 1"/>
+                    <img src="https://pp.userapi.com/c639629/v639629199/65ad8/1JaEJsNTxC0.jpg" alt="Slide 1"/>
                     <div class="slider-caption">
-                        <h2><a href="../blog/item.php">Ученый совет ИГиП</a></h2>
-                        <p>в честь 30-летия юридического образования в ТюмГУ и в регионе</p>
+                        <h2><a href="<?php echo $menu['blog']['item.php']['link'].'&item=NewRules'; ?>">Новая версия
+                                правил внутреннего распорядка</a></h2>
+                        <p>9 ноября ректор ТюмГУ Валерий Фальков переподписал приказ, в соответствии с федеральным
+                            законодательством об изменении продолжительности каникул</p>
                     </div>
                 </li>
                 <li>

@@ -8,8 +8,8 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="blog-grid-item">
                         <div class="blog-grid-thumb">
-                            <a href="#" class="cat-blog">Business</a>
-                            <a href="<?php echo $menu['blog']['item.php']['link']; ?>">
+                            <a href="#" class="cat-blog">History</a>
+                            <a href="<?php echo $menu['blog']['item.php']['link'] . '&item=30years'; ?>">
                                 <img src="https://www.utmn.ru/upload/iblock/7e4/IMG_3791.JPG" alt="">
                             </a>
                         </div>
@@ -26,16 +26,18 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="blog-grid-item">
                         <div class="blog-grid-thumb">
-                            <a href="#" class="cat-blog">Government</a>
-                            <a href="<?php echo $menu['blog']['item.php']['link']; ?>">
-                                <img src="http://placehold.it/360x220" alt="">
+                            <a href="#" class="cat-blog">Education</a>
+                            <a href="<?php echo $menu['blog']['item.php']['link'] . '&item=Raiko-Knez'; ?>">
+                                <img src="https://www.utmn.ru/upload/iblock/998/2016.02.15%20%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%B0%20%D0%9A%D0%BD%D0%B5%D0%B7%D0%B0%20_%20002.jpg""
+                                alt="">
                             </a>
                         </div>
                         <div class="box-content-inner">
                             <h4 class="blog-grid-title"><a
-                                        href="<?php echo $menu['blog']['item.php']['link'] . '&item=Raiko-Knez'; ?>">Unlocking
-                                    the scrolls of Herculaneum</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                                        href="<?php echo $menu['blog']['item.php']['link'] . '&item=Raiko-Knez'; ?>">Встреча
+                                    с Райко Кнез, профессором Университета Марибора (Словения)</a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">12 October 2017</a></span> with
+                                <span><a href="#">3 comments</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
@@ -44,13 +46,16 @@
                     <div class="blog-grid-item">
                         <div class="blog-grid-thumb">
                             <a href="#" class="cat-blog">Tech & Engineering</a>
-                            <a href="<?php echo $menu['blog']['item.php']['link']; ?>">
-                                <img src="http://placehold.it/360x220" alt="">
+                            <a href="<?php echo $menu['blog']['item.php']['link'] . '&item=NewRules'; ?>">
+                                <img src="https://pp.userapi.com/c639629/v639629199/65ad8/1JaEJsNTxC0.jpg" alt="">
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Corin Sworn wins Max Mara Art Prize</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a
+                                        href="<?php echo $menu['blog']['item.php']['link'] . '&item=NewRules'; ?>">Новые
+                                    правила внутреннего распорядка</a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">9 November 2017</a></span> with
+                                <span><a href="#">3 comments</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
@@ -58,14 +63,17 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="blog-grid-item">
                         <div class="blog-grid-thumb">
-                            <a href="#" class="cat-blog">Family</a>
-                            <a href="<?php echo $menu['blog']['item.php']['link']; ?>">
-                                <img src="http://placehold.it/360x220" alt="">
+                            <a href="#" class="cat-blog">Community</a>
+                            <a href="<?php echo $menu['blog']['item.php']['link'] . '&item=Ladya'; ?>">
+                                <img src="https://pp.userapi.com/c824203/v824203555/12c17/_6pNQ8eks18.jpg" alt="">
                             </a>
                         </div>
                         <div class="box-content-inner">
-                            <h4 class="blog-grid-title"><a href="<?php echo $menu['blog']['item.php']['link']; ?>">Graduate Open Day at the Ruskin</a></h4>
-                            <p class="blog-grid-meta small-text"><span><a href="#">12 January 2014</a></span> with <span><a href="#">3 comments</a></span></p>
+                            <h4 class="blog-grid-title"><a
+                                        href="<?php echo $menu['blog']['item.php']['link'] . '&item=Ladya'; ?>">Встреча
+                                    клуба "Ладья" со студентами институт государства и права</a></h4>
+                            <p class="blog-grid-meta small-text"><span><a href="#">7 November 2017</a></span> with
+                                <span><a href="#">3 comments</a></span></p>
                         </div> <!-- /.box-content-inner -->
                     </div> <!-- /.blog-grid-item -->
                 </div> <!-- /.col-md-6 -->
