@@ -17,6 +17,7 @@ $items['blog']['example'] = [
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, magni, blanditiis, excepturi accusantium fugiat enim accusamus non libero doloribus doloremque illo error perferendis sequi dignissimos nesciunt voluptates nulla voluptatibus optio.</p>',
     'author_name' => 'Автор Леонидович',
     'author_info' => 'Лучший писатель на планете после Анджея Сапковского',
+    'image' => 'http://placehold.it/750x390'
 ];
 
 $items['course']['404'] = ['title'=>'Страница не найдена'];
